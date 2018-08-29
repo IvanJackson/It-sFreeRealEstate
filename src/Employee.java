@@ -84,10 +84,10 @@ public class Employee {
 		if (yearService >= 10) {
 			return 3;
 		}
-		else if (yearService > 5) {
+		else if (yearService >= 5) {
 			return 2;
 		}
-		else if (yearService > 1) {
+		else if (yearService >= 1) {
 			return 1;
 		}
 		else {
